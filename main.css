@@ -14,8 +14,21 @@
     cursor: pointer;
     box-shadow: 0 13px 45px 0 rgba(0, 0, 0, 1), 0 49px 98px 0 rgba(0, 0, 0, 0.39);
 }
-
+.mede-mobile{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 45px;
+    position: relative;
+    top: 109px;
+    background-color: #688095;
+}
 #blow {
+}
+
+.myList{
+  list-style-type: none;
+
 }
 #a-1, #d-1, #c-1, #b-1{
   filter: blur(1px);
@@ -397,9 +410,9 @@ flex-basis: 25%;
   margin-left: 5%;
 }
 .san{
-  justify-content: center;
+    justify-content: center;
     position: relative;
-    left: 96px;
+    left: 128px;
     top: -11px;
 }
 .san a{
@@ -765,7 +778,6 @@ bottom: 444px;
 }
 .mede{
       position: relative;
-    top: 125px;
 }
 .mede1-mobile{
       font-size: 14px;
